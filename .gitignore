@@ -20,7 +20,7 @@ token.pickle
 
 ###logs
 
-.*log
+*.log
 
 
 theshortlistd-production-e6a05e835715.json
