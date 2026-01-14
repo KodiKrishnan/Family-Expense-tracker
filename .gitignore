@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+.expense-tracker/
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+
+###logs
+
+.*log
+
+
+theshortlistd-production-e6a05e835715.json
+client_secret.json
