@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+.expense-tracker/
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+# Ignore sensitive tokens
+token.pickle
+
+
+###logs
+
+*.log
+test.py
+
+theshortlistd-production-e6a05e835715.json
+client_secret.json
