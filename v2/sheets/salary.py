@@ -70,12 +70,13 @@ def compute_individual_salary_actuals(service, spreadsheet_id):
         "SUMIFS("
         "Expenses!G:G,"
         "Expenses!J:J, person,"
-        "Expenses!B:B, month"
+        "Expenses!B:B, TEXT(month,\"mmm-yyyy\")"
         ")"
         ")"
         ")"
         ")"
     )
+
 
     service.spreadsheets().values().update(
         spreadsheetId=spreadsheet_id,

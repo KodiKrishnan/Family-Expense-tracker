@@ -1,0 +1,58 @@
+Date,Month,Year,Category,Sub-Category,Description,Amount,Payment Mode,Account,Paid By,For Whom,Expense Type,Frequency,Vendor,Bill?,Reimbursable,Tags
+2026-01-04,Jan-2026,2026,Loans,EMI,Apty Kalanchiam,5000,Cash,Cash,Deiva,Family,Loan,Monthly,Woman Self Help Group,Yes,No,Family
+2026-01-04,Jan-2026,2026,Loans,EMI,Housing Loan,25633,UPI,Gpay,Karthi,Family,Loan,Monthly,Bank,Yes,No,Family
+2026-01-04,Jan-2026,2026,Transport,Maintenance,Bike Repair,4000,Cash,Cash,Appa,Family,Others,Yearly,Local Store,No,No,Family
+2026-01-04,Jan-2026,2026,Education,Skill Development,Agile Scrum Master Certificate,23500,Credit Card,Imobile,Chandru,Chandru,Education,One-time,Others,Yes,No,Education
+2026-01-04,Jan-2026,2026,Utilities,Mobile,Anni Recharge,199,Credit Card,Amazon Pay,Chandru,Pothu,Essential,Monthly,Jio,Yes,No,Personal
+2026-01-05,Jan-2026,2026,Shopping,Groceries,Veni Athai Personal Expense,500,Cash,Cash,Appa,Athai,Discretionary,Quarterly,Others,No,No,Family
+2026-01-05,Jan-2026,2026,Loans,EMI,Kotak Due,4313,Bank Transfer,Kotak811,Chandru,Karthi,Loan,Monthly,Bank,Yes,No,Family
+2026-01-07,Jan-2026,2026,Utilities,Mobile,Gandhi Krishnan Recharge,349,Credit Card,Amazon Pay,Chandru,Karthi,Essential,Monthly,Jio,Yes,Yes,Personal
+2026-01-08,Jan-2026,2026,Transport,Bus,Anni Home coming,1050,Credit Card,Imobile,Chandru,Pothu,Travel,Quarterly,Bus Corporation,Yes,No,Personal
+2026-01-08,Jan-2026,2026,Rent,Housing,mayakrishnan1506@gmail.comAppa Room Rent,1500,UPI,Navi,Appa,Appa,Essential,Monthly,House Owners,No,No,Self
+2026-01-09,Jan-2026,2026,Loans,EMI,Kalanchiam Kmpty,7000,Cash,Cash,Chandru,Family,Loan,Monthly,Woman Self Help Group,Yes,No,Family
+2026-01-09,Jan-2026,2026,Health,Medicines,Physiotherapy,500,Cash,Cash,Family,Amma,Medical,Quarterly,Pharmacy,No,No,Medical
+2026-01-10,Jan-2026,2026,Shopping,Groceries,Market,500,Cash,Cash,Family,Self,Essential,Weekly,Local Store,No,No,Family
+2026-01-11,Jan-2026,2026,Others,Groceries,Pongal Things,1000,Cash,Cash,Family,Self,Essential,One-time,Others,No,No,Family
+2026-01-12,Jan-2026,2026,Loans,EMI,Azhagu sundari chit fund,6400,Cash,Cash,Chandru,Family,Repayment,Monthly,Bank,No,No,Family
+2026-01-12,Jan-2026,2026,Rooms,Hotel,Gandhi Krishnan Rooms + person Expense,2000,UPI,Kotak811,Chandru,Karthi,Travel,Weekly,Hotels,Yes,Yes,Office
+2026-01-13,Jan-2026,2026,Food,Snacks,Tea &Snacks,200,UPI,Navi,Chandru,Appa,Discretionary,One-time,Local Store,No,No,Family
+2026-01-13,Jan-2026,2026,Transport,Bus,Gandhi Krishnan Home coming,1133,Credit Card,Imobile,Karthi,Karthi,Travel,Quarterly,Bus Corporation,Yes,No,Travel
+2026-01-14,Jan-2026,2026,Savings,Others,Poo Veni,510,Cash,Cash,Family,Amma,Savings,Monthly,Woman Self Help Group,Yes,No,Family
+2026-01-14,Jan-2026,2026,Shopping,Groceries,Coconut - 10 x 20,200,Cash,Cash,Family,Self,Essential,Monthly,Local Store,No,No,Family
+2026-01-14,Jan-2026,2026,Shopping,Shopping,Hair Oil,350,Credit Card,Amazon Pay,Family,Self,Discretionary,One-time,Amazon,Yes,No,Family
+2026-01-15,Jan-2026,2026,Shopping,Groceries,Mocha Payir,200,Cash,Cash,Family,Amma,Clothes,Yearly,Local Store,No,No,Personal
+2026-01-15,Jan-2026,2026,Debt,Interest,Vairavan,4000,UPI,Gpay,Deiva,Family,Repayment,Monthly,Others,Yes,No,Family
+2026-01-15,Jan-2026,2026,Transport,Fuel,Appa Bike,300,UPI,Kotak811,Family,Appa,Essential,Weekly,Others,Yes,No,Travel
+2026-01-15,Jan-2026,2026,Health,Medicines,Patti Tablet,150,UPI,Kotak811,Family,Patti,Medical,Monthly,Pharmacy,No,No,Family
+2026-01-15,Jan-2026,2026,Utilities,Internet,Act Wifi -BLR,883.82,Credit Card,Imobile,Karthi,Karthi,Discretionary,Monthly,Others,Yes,No,Personal
+2026-01-15,Jan-2026,2026,Rent,Housing,Gandhi Krishnan-House,8500,UPI,Gpay,Karthi,Karthi,Essential,Monthly,House Owners,No,No,Personal
+2026-01-16,Jan-2026,2026,Food,Snacks,Tea &Snacks,60,UPI,Kotak811,Chandru,Chandru,Others,Daily,Local Store,Yes,No,Personal
+2026-01-16,Jan-2026,2026,Shopping,Groceries,Eggs,70,UPI,Kotak811,Chandru,Family,Discretionary,Weekly,Local Store,Yes,No,Family
+2026-01-16,Jan-2026,2026,Transport,Bus,Veni Athai,200,Cash,Cash,Family,Athai,Discretionary,One-time,Others,No,No,Family
+2026-01-17,Jan-2026,2026,Food,Snacks,Street food,80,UPI,Kotak811,Chandru,Chandru,Discretionary,Weekly,Local Store,Yes,No,Personal
+2026-01-18,Jan-2026,2026,Transport,Bus,Amma Kovil Visit @madurai,300,Cash,Cash,Family,Amma,Discretionary,Quarterly,Others,No,No,Personal
+2026-01-18,Jan-2026,2026,Transport,Bus,Gandhi Krishnan Bus and other personal expense,2000,UPI,Kotak811,Family,Karthi,Travel,Quarterly,Bus Corporation,Yes,No,Personal
+2026-01-19,Jan-2026,2026,Loans,EMI,HDFC @poo veni,3125,Cash,Cash,Chandru,Family,Loan,Monthly,Bank,No,No,Family
+2026-01-19,Jan-2026,2026,Insurance,Others,Amma Post ofc savings,1506,UPI,Kotak811,Chandru,Amma,Insurance Premiums,Monthly,Bank,Yes,Yes,Insurance
+2026-01-19,Jan-2026,2026,Food,Groceries,Rations,200,Cash,Cash,Family,Family,Essential,Monthly,Government,No,No,Family
+2026-01-19,Jan-2026,2026,Utilities,Mobile,Veni Athai Mobile Recharge,199,Credit Card,Amazon Pay,Chandru,Athai,Essential,Monthly,Streaming Services,Yes,No,Personal
+2026-01-19,Jan-2026,2026,Festivals/Celebrations,Shopping,Amma dress(Post pongal),1000,Cash,Cash,Chandru,Amma,Clothes,Bi-Annual,Others,No,No,Festivals/Celebrations
+2026-01-19,Jan-2026,2026,Festivals/Celebrations,Shopping,Anni dress (Post Pongal),1000,Cash,Cash,Chandru,Pothu,Clothes,Bi-Annual,Others,No,No,Festivals/Celebrations
+2026-01-20,Jan-2026,2026,Savings,Chit Funds,Gandhi Krishnan Chit Fund(1lakh),5000,UPI,Kotak811,Family,Karthi,Savings,Monthly,Others,Yes,No,Chit Fund
+2026-01-20,Jan-2026,2026,Others,Others,Gandhi Krishnan +3000(Person Expense),3000,UPI,Kotak811,Family,Karthi,Essential,One-time,Others,Yes,No,Personal
+2026-01-20,Jan-2026,2026,Transport,Fuel,mayakrishnan1506@gmail.com,600,Cash,Cash,Family,Appa,Essential,Weekly,Others,No,No,Personal
+2026-01-20,Jan-2026,2026,Food,Snacks,"Tea &puff,Chips",160,Cash,Cash,Chandru,Chandru,Discretionary,Weekly,Local Store,No,No,Personal
+2026-01-22,Jan-2026,2026,Utilities,Internet,Jio Airfiber Bill,706,Credit Card,Amazon Pay,Chandru,Chandru,Essential,Monthly,Jio,Yes,No,Personal
+2026-01-22,Jan-2026,2026,Utilities,Gas Cylinder,Gas Cylinder,950,Cash,Cash,Family,Family,Essential,Monthly,Others,No,No,Family
+2026-01-23,Jan-2026,2026,Festivals/Celebrations,Festive Expenses,Srirangam Visits,1500,Cash,Cash,Family,Family,Festivals/Celebrations,One-time,Bus Corporation,No,No,Festivals/Celebrations
+2026-01-23,Jan-2026,2026,Transport,Others,Gandhi Krishnan personal Expense,2000,UPI,Kotak811,Family,Karthi,Essential,One-time,Others,Yes,No,Personal
+2026-01-24,Jan-2026,2026,Shopping,Groceries,Saturday Market,500,Cash,Cash,Family,Family,Essential,Weekly,Local Store,No,No,Family
+2026-01-24,Jan-2026,2026,Food,Snacks,"Tea & Puff, Paniyaaram",160,UPI,Navi,Chandru,Chandru,Discretionary,Weekly,Local Store,Yes,No,Personal
+2026-01-28,Jan-2026,2026,Festivals/Celebrations,Functions,"Anbu Marriage(Pothu,Amma)",400,Cash,Cash,Family,Pothu,Discretionary,One-time,Others,No,No,Travel
+2026-01-28,Jan-2026,2026,Health,Medicines,Inba(Cold Syrup),40,Cash,Cash,Family,Children,Medical,Quarterly,Pharmacy,No,No,Medical
+2026-01-28,Jan-2026,2026,Health,Medicines,Pothu(headache tablet),20,Cash,Cash,Family,Pothu,Medical,Quarterly,Pharmacy,No,No,Medical
+2026-01-29,Jan-2026,2026,Shopping,Groceries,"Eggs(10x7),Wheat Flour",104,Cash,Cash,Chandru,Chandru,Discretionary,Weekly,Local Store,No,No,Family
+2026-01-30,Jan-2026,2026,Food,Snacks,"Tea & Puffs,Chips",170,Cash,Cash,Family,Chandru,Discretionary,Weekly,Local Store,No,No,Personal
+2026-01-30,Jan-2026,2026,Loans,EMI,Nabard @poo veni,2400,Cash,Cash,Chandru,Family,Loan,Monthly,Bank,No,No,Family
+2026-01-31,Jan-2026,2026,Shopping,Groceries,"Saturday Market(Vegs,spices)",1000,Cash,,Family,Family,Essential,Weekly,Local Store,No,No,Family
+2026-02-01,Feb-2026,2026,Food,Snacks,Tea & Puffs,80,Cash,,Chandru,Chandru,Discretionary,Daily,Local Store,No,No,Personal
