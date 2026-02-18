@@ -24,7 +24,7 @@ def create_dashboard(service, spreadsheet_id):
         body={"values": [["=SUM(Expenses!G:G)"]]}
     ).execute()
 
-    # ----- KPI: Current Month Total (robust) -----
+    # ----- KPI: Selected Month Total -----
     service.spreadsheets().values().update(
         spreadsheetId=spreadsheet_id,
         range="Dashboard!B1",
@@ -32,24 +32,11 @@ def create_dashboard(service, spreadsheet_id):
         body={"values": [["Current Month Total"]]}
     ).execute()
 
-    current_month_formula = (
-        '=SUM('
-        'ARRAYFORMULA('
-        'IF('
-        'TEXT(IF(Expenses!A2:A="",,DATEVALUE(Expenses!A2:A)),"mmm-yyyy") = '
-        'TEXT(MAX(IF(Expenses!A2:A="",,DATEVALUE(Expenses!A2:A))),"mmm-yyyy"),'
-        'Expenses!G2:G*1,'
-        '0'
-        ')'
-        ')'
-        ')'
-    )
-
     service.spreadsheets().values().update(
         spreadsheetId=spreadsheet_id,
         range="Dashboard!B2",
         valueInputOption="USER_ENTERED",
-        body={"values":[[current_month_formula]]}
+        body={"values": [['=SUMIFS(Expenses!G:G, Expenses!B:B, O2)']]}
     ).execute()
 
     # ----- KPI: Highest Expense -----

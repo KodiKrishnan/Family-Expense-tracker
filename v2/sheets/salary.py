@@ -20,7 +20,34 @@ def create_individual_salary_sheet(service, spreadsheet_id):
         }
     ).execute()
 
-    # 2️⃣ Header + starter data
+    # 2️⃣ Format column A as plain text to prevent "Jan-2026" → date auto-conversion
+    sheet_id = get_sheet_id(service, spreadsheet_id, "Individual_Salary")
+    service.spreadsheets().batchUpdate(
+        spreadsheetId=spreadsheet_id,
+        body={
+            "requests": [{
+                "repeatCell": {
+                    "range": {
+                        "sheetId": sheet_id,
+                        "startRowIndex": 1,
+                        "endRowIndex": 1000,
+                        "startColumnIndex": 0,
+                        "endColumnIndex": 1
+                    },
+                    "cell": {
+                        "userEnteredFormat": {
+                            "numberFormat": {
+                                "type": "TEXT"
+                            }
+                        }
+                    },
+                    "fields": "userEnteredFormat.numberFormat"
+                }
+            }]
+        }
+    ).execute()
+
+    # 3️⃣ Header + starter data
     values = [
         ["Month", "Person", "Salary", "Actual Spent", "Remaining"],
         ["Jan-2026", "Karthi", 40000],
@@ -35,8 +62,7 @@ def create_individual_salary_sheet(service, spreadsheet_id):
         body={"values": values}
     ).execute()
 
-    # 3️⃣ Freeze header row (UX polish)
-    sheet_id = get_sheet_id(service, spreadsheet_id, "Individual_Salary")
+    # 4️⃣ Freeze header row (UX polish)
     service.spreadsheets().batchUpdate(
         spreadsheetId=spreadsheet_id,
         body={
@@ -62,6 +88,8 @@ def compute_individual_salary_actuals(service, spreadsheet_id):
     """
 
     # Actual Spent (D2)
+    # Uses 'month' directly since column A is plain text "Jan-2026"
+    # matching Expenses!B which is also text "Jan-2026"
     actual_formula = (
         "=MAP("
         "A2:A, B2:B,"
@@ -70,7 +98,7 @@ def compute_individual_salary_actuals(service, spreadsheet_id):
         "SUMIFS("
         "Expenses!G:G,"
         "Expenses!J:J, person,"
-        "Expenses!B:B, TEXT(month,\"mmm-yyyy\")"
+        "Expenses!B:B, month"
         ")"
         ")"
         ")"

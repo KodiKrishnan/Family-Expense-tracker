@@ -304,4 +304,3 @@ def add_dashboard_charts(service, spreadsheet_id):
         spreadsheetId=spreadsheet_id,
         body={"requests": requests}
     ).execute()
-
